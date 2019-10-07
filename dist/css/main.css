@@ -59,8 +59,8 @@ img {
   width: 100%; }
 
 #logo {
-  width: 69px;
-  height: 69px;
+  width: 49px;
+  height: 49px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -85,7 +85,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/beachT.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
