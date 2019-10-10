@@ -168,12 +168,23 @@ img {
   #home-c .process-step {
     position: absolute;
     top: 0;
-    left: 0;
-    font-size: 28px;
+    left: 90px;
+    font-size: 22px;
     background: #ffbc00;
     border-radius: 50%;
     height: 15px;
     width: 15px;
     line-height: 15px;
-    padding: 1px;
+    padding: 1rem;
+    transition: all 1s; }
+  #home-c .process-icon {
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
     transition: all 1s; }

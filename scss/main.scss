@@ -155,17 +155,31 @@ img {
       gap: 1.5rem;
       text-align: center;
 
+      // process-step
       &-step {
         position: absolute;
         top: 0;
-        left: 0;
-        font-size: 28px;
+        left: 90px;
+        font-size: 22px;
         background: $main-color;
         border-radius: 50%;
         height: 15px;
         width: 15px;
         line-height: 15px;
-        padding: 1px;
+        padding: 1rem;
+        transition: all 1s;
+      }
+
+      &-icon {
+        border-radius: 50%;
+        background: $dark-color;
+        color: #fff;
+        padding: 2rem;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        position: relative;
         transition: all 1s;
       }
     }
