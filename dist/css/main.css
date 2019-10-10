@@ -168,9 +168,10 @@ img {
   #home-c .process-step {
     position: absolute;
     top: 0;
-    left: 90px;
+    right: 0px;
     font-size: 22px;
     background: #ffbc00;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -188,3 +189,32 @@ img {
     text-align: center;
     position: relative;
     transition: all 1s; }
+    #home-c .process-icon:hover {
+      background-color: #ffbc00;
+      width: 85px;
+      height: 85px;
+      line-height: 85px; }
+      #home-c .process-icon:hover .process-step {
+        background: #333;
+        color: #fff; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 22px;
+      width: 22px;
+      line-height: 22px;
+      text-align: center;
+      padding: 0.45rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }

@@ -159,9 +159,10 @@ img {
       &-step {
         position: absolute;
         top: 0;
-        left: 90px;
+        right: 0px;
         font-size: 22px;
         background: $main-color;
+        color: set-text-color($main-color);
         border-radius: 50%;
         height: 15px;
         width: 15px;
@@ -173,7 +174,7 @@ img {
       &-icon {
         border-radius: 50%;
         background: $dark-color;
-        color: #fff;
+        color: set-text-color($dark-color);
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -181,6 +182,47 @@ img {
         text-align: center;
         position: relative;
         transition: all 1s;
+
+        &:hover {
+          background-color: $main-color;
+          width: 85px;
+          height: 85px;
+          line-height: 85px;
+
+          .process-step {
+            background: $dark-color;
+            color: set-text-color($dark-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer
+#main-footer {
+  background: $dark-color;
+  color: #fff;
+  height: 5rem;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .social .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 22px;
+      width: 22px;
+      line-height: 22px;
+      text-align: center;
+      padding: 0.45rem;
+
+      &:hover {
+        background: $main-color;
       }
     }
   }
