@@ -156,7 +156,17 @@ img {
       text-align: center;
 
       &-step {
-        
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 28px;
+        background: $main-color;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        padding: 1px;
+        transition: all 1s;
       }
     }
   }
