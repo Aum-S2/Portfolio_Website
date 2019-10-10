@@ -1,5 +1,5 @@
-@import 'config';
-@import 'utilities';
+@import "config";
+@import "utilities";
 
 // General Styles
 * {
@@ -22,7 +22,9 @@ ul {
   list-style: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -70,7 +72,7 @@ img {
   }
 }
 
-// Header 
+// Header
 #header {
   // Header Home
   &-home {
@@ -90,10 +92,11 @@ img {
     }
   }
 
-
   // Header Inner
   &-inner {
-    
+    background: $bg-image no-repeat 15% 57% / cover;
+    height: 5.5rem;
+    border-bottom: 3px solid $main-color;
   }
 }
 
@@ -154,6 +157,7 @@ img {
       grid-template-columns: repeat(4, 1fr);
       gap: 1.5rem;
       text-align: center;
+      margin-bottom: 3rem;
 
       // process-step
       &-step {
@@ -203,12 +207,12 @@ img {
 #main-footer {
   background: $dark-color;
   color: #fff;
-  height: 5rem;
+  height: 4.7rem;
 
   .footer-content {
     display: flex;
     justify-content: space-between;
-    height: 5rem;
+    height: 4.7rem;
     align-items: center;
 
     .social .fab {

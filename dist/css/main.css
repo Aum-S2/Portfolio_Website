@@ -91,7 +91,9 @@ a {
 ul {
   list-style: none; }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase; }
 
 img {
@@ -134,6 +136,11 @@ img {
     font-size: 3.8rem;
     line-height: 1.2; }
 
+#header-inner {
+  background: url("../img/beachT.jpg") no-repeat 15% 57%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbc00; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -164,7 +171,8 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 3rem; }
   #home-c .process-step {
     position: absolute;
     top: 0;
@@ -201,11 +209,11 @@ img {
 #main-footer {
   background: #333;
   color: #fff;
-  height: 5rem; }
+  height: 4.7rem; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
-    height: 5rem;
+    height: 4.7rem;
     align-items: center; }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
