@@ -116,6 +116,14 @@ input[class^="btn-"]:hover {
     transform: scale(2) translateX(0) translateY(0) rotate(-4deg); }
   .item:hover .item-image {
     transform: scale(1.2); }
+  .item:hover .item-text {
+    opacity: 1;
+    transform: translateY(0); }
+  .item-image {
+    height: auto;
+    transform: translateZ(0);
+    display: block;
+    transition: transform 750ms cubic-bezier(0.2, 2, 0.3, 1); }
 
 * {
   margin: 0;

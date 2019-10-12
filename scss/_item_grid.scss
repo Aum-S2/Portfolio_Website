@@ -28,7 +28,21 @@
     transform: scale(2) translateX(0) translateY(0) rotate(-4deg);
   }
 
+  // Scale Images On Hover
   &:hover &-image {
     transform: scale(1.2);
   }
-}
+
+  // Bring In Text On Hover
+  &:hover &-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &-image {
+    height: auto;
+    transform: translateZ(0);
+    display: block;
+    transition: transform 750ms cubic-bezier(0.2, 2, 0.3, 1);
+  }
+ }
