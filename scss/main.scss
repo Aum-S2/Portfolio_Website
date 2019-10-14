@@ -305,7 +305,21 @@ img {
       }
     }
   }
+}
 
+// Contact Page
+#contact {
+  &-a {
+    .text-fields {
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "subject phone"
+        "message message";
+      gap: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+  }
 }
 
 // Footer
