@@ -318,6 +318,30 @@ img {
         "message message";
       gap: 1.2rem;
       margin-bottom: 1.2rem;
+
+      // Grid Areas
+      .name-input {
+        grid-area: name;
+      }
+      .subject-input {
+        grid-area: subject;
+      }
+      .email-input {
+        grid-area: email;
+      }
+      .phone-input {
+        grid-area: phone;
+      }
+      .message-input {
+        grid-area: message;
+        height: 95px;
+      }
+
+      .text-input {
+        padding: 0.5rem 1rem;
+      }
+
+
     }
   }
 }
