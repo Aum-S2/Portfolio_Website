@@ -340,8 +340,10 @@ img {
       .text-input {
         padding: 0.5rem 1rem;
       }
+    }
 
-
+    button[type='submit']{
+      width: 40%;
     }
   }
 }

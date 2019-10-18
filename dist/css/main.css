@@ -380,6 +380,9 @@ img {
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
 
+#contact-a button[type='submit'] {
+  width: 40%; }
+
 #main-footer {
   background: #333;
   color: #fff;
