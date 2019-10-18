@@ -42,6 +42,7 @@
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
+  #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
   }
@@ -83,6 +84,40 @@
 
     &-c {
       display: none;
+    }
+  }
+
+  // Contact 
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas: 
+        'name'
+        'subject'
+        'email'
+        'phone'
+        'message';
+      }
+    }
+
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #555;
+
+        &:last-child {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          border-bottom: none;
+        }
+      }
+    }
+
+    &-c {
+      h1 {
+        font-size: 2rem;
+      }
     }
   }
 
