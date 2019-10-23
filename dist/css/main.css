@@ -220,7 +220,7 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 15%; }
+    padding-top: 15% !important; }
   #header-home h1 {
     font-size: 3.8rem;
     line-height: 1.2; }
